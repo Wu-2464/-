@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	
+	<!-- 2.配置mybatis的log实现为LOG4J -->
+	<settings>
+		<setting name="logImpl" value="LOG4J" />
+	</settings>
+	
+	<!-- 3.别名 -->
+	<typeAliases>
+		<package name="cn.bdqn.entity"/>
+	</typeAliases>
+
+</configuration>
